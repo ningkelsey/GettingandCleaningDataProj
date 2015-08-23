@@ -29,8 +29,8 @@ colnames(test)<-c("id","activity",names(xte))
 dt<-rbind(train,test)
 
 #Creat dataset with averages of all the variables
-data-ave <- ddply(dt, .(id, activity), function(x) colMeans(x[, 3:68]))
+data_ave <- ddply(dt, .(id, activity), function(x) colMeans(x[, 3:68]))
 
-write.table(data-ave,"tidy.txt",row.names=FALSE, quote=FALSE)
+write.table(data_ave,"tidy.txt",row.names=FALSE, quote=FALSE)
 
 
