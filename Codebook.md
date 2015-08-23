@@ -1,6 +1,7 @@
 #Identifiers
 
 id : the id of the subject
+
 activity: the type of activity performed when measured
 
 #Features
