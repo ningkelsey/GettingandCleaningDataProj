@@ -1,9 +1,9 @@
-Identifiers
+#Identifiers
 
 id : the id of the subject
 activity: the type of activity performed when measured
 
-Features
+#Features
 
 tBodyAccmeanX
 tBodyAccmeanY
@@ -72,7 +72,7 @@ fBodyBodyGyroMagstd
 fBodyBodyGyroJerkMagmean
 fBodyBodyGyroJerkMagstd
 
-Activity Labels
+#Activity Labels
 
 1 WALKING
 2 WALKING_UPSTAIRS
